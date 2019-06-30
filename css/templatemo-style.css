@@ -169,6 +169,7 @@ a:focus {
   display: flex;
   flex-flow: column;
   justify-content: center;
+
 }
 
 .tm-hero-text-container-inner {
@@ -185,6 +186,7 @@ a:focus {
   bottom: 100px;
   left: 0;
   right: 0;
+    
 }
 
 @media (max-height: 480px) {
@@ -222,11 +224,15 @@ a:focus {
 .tm-section-title {
   font-size: 2.6rem;
   font-weight: normal;
+        text-align: right;
+    direction: rtl;
 }
 
 .tm-intro-text {
   font-size: 1.2rem;
   line-height: 1.4;
+        text-align: right;
+    direction: rtl;
 }
 
 .tm-icon {
@@ -275,7 +281,7 @@ a:focus {
 /* Common style */
 .grid figure {
   position: relative;
-  float: left;
+  float: right;
   overflow: hidden;
   /* margin: 10px 1%;
   min-width: 320px;
@@ -384,7 +390,7 @@ figure.effect-honey h2 {
   left: 0;
   padding: 1em 1.5em;
   width: 100%;
-  text-align: left;
+  text-align: right;
   -webkit-transform: translate3d(0, -30px, 0);
   transform: translate3d(0, -30px, 0);
 }
@@ -529,6 +535,8 @@ p {
 
   .tm-container-contact {
     max-width: 1063px;
+    text-align: right;
+    direction: rtl;
   }
 }
 

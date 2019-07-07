@@ -232,8 +232,14 @@ a:focus {
 .tm-section-title {
   font-size: 2.6rem;
   font-weight: normal;
-        text-align: right;
-    direction: rtl;
+  text-align: center;
+  direction: rtl;
+}
+
+.tm-section-title-collor {
+  width: 100%;
+  background-color: #f5e2da;
+  height: 70px;  
 }
 
 .tm-intro-text {

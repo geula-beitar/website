@@ -291,6 +291,58 @@ a:focus {
   font-size: 26px;
 }
 
+/* files */
+.pdfImg span {
+    background-image: url(../img/pdf-logo.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30px;
+    padding-right: 38px;
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.linkImg span {
+    background-image: url(../img/link-logo.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30px;
+    padding-right: 38px;
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.pdf_list {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #fff;
+    padding-bottom: 48px;
+    padding-top: 60px;
+}
+
+.pdf_links ul {
+    width: 100%;
+    display: inline-table;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pdf_links ul li {
+    width: 35%;
+    display: inline-table;
+    list-style: none;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: right;
+    border: 1px solid #3496d8;
+    background-color: #f5e2da;
+    margin-bottom: 22px;
+    margin-right: 22px;
+}
 /* Hover Effect */
 /* Common style */
 .grid figure {

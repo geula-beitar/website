@@ -229,6 +229,10 @@ a:focus {
 
 /* Introduction */
 
+.card-header{
+    
+}
+
 .tm-section-title {
   font-size: 2.6rem;
   font-weight: normal;
@@ -544,6 +548,10 @@ figure.effect-honey:hover h2 i {
   border: 1px solid white;
   background: transparent;
   color: white;
+}
+
+.btn-link{
+    align-content: center;
 }
 
 ::placeholder {

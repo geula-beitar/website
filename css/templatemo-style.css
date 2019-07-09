@@ -39,6 +39,8 @@ a:focus {
 
 .tm-section-pad-top {
   padding-top: 135px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .tm-text-primary {
@@ -70,7 +72,7 @@ a:focus {
 }
 
 .tm-navbar {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   z-index: 1000;
   background-color: #9386838c;
@@ -239,16 +241,42 @@ a:focus {
 }
 
 .tm-section-title {
-  font-size: 2.6rem;
   font-weight: normal;
   text-align: center;
   direction: rtl;
 }
 
+@media (min-height: 830px) {
+    .tm-section-title {
+      font-size: 2.6rem;
+    }
+    .tm-section-title-collor {
+      height: 70px;  
+    }
+}
+
+@media (min-height: 680px) and (max-height: 829px) {
+    .tm-section-title {
+      font-size: 2.1rem;
+    }
+    .tm-section-title-collor {
+      height: 60px;  
+    }
+}
+
+@media (min-height: 500px) and (max-height: 679px) {
+    .tm-section-title {
+      font-size: 1.6rem;
+    }
+    .tm-section-title-collor {
+      height: 45px;  
+    }
+}
+
 .tm-section-title-collor {
   width: 100%;
   background-color: #f5e2da;
-  height: 70px;  
+    
 }
 
 .tm-intro-text {
@@ -325,11 +353,15 @@ a:focus {
 
 .pdf_list {
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
     background-color: #fff;
     padding-bottom: 48px;
     padding-top: 60px;
+}
+
+@media (min-height: 500px) and (max-height: 679px) {
+    pdf_links ul li {
+    width: 100%;
+    }
 }
 
 .pdf_links ul {
@@ -350,7 +382,6 @@ a:focus {
     border: 1px solid #3496d8;
     background-color: #f5e2da;
     margin-bottom: 22px;
-    margin-right: 22px;
 }
 /* Hover Effect */
 /* Common style */

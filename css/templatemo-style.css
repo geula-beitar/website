@@ -1,8 +1,6 @@
 /*
 
-The Town
-
-https://templatemo.com/tm-525-the-town
+geula-beitar.com
 
 */
 
@@ -72,7 +70,7 @@ a:focus {
 }
 
 .tm-navbar {
-  /*position: fixed;*/
+  position: fixed;
   width: 100%;
   z-index: 1000;
   background-color: #9386838c;

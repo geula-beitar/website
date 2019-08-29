@@ -75,7 +75,7 @@ a:focus {
 
 .tm-navbar {
   width: 100%;
-  z-index: 1000;
+  z-index: 9999;
   background-color: #9386838c;
   transition: all 0.3s ease;
 }
@@ -356,8 +356,23 @@ a:focus {
     width: 80%;
     margin: 0 auto;
     float: none;
-
 }
+
+@media (max-width: 450px) {
+    .main_tr th .col-sm-1{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .main_tr th{
+        font-size: 0.5rem;
+    }
+
+    .main_tr td{
+        font-size: 0.5rem;
+    }
+}
+
 
 /* files */
 .pdfImg span {

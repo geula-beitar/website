@@ -40,7 +40,7 @@ a:focus {
 }
 
 .tm-section-pad-top {
-  padding-top: 135px;
+  padding-top: 50px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -108,11 +108,14 @@ a:focus {
 .tm-nav-link {
   color: white;
   /*text-shadow: 2px 2px 2px #333;*/
+  direction: rtl;
+  text-align: center;
 }
 
 .tm-navbar.scroll .tm-nav-link {
   color: #8f8f8f;
   text-shadow: 0px 0px 0px #333;
+  text-align: center;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
@@ -331,6 +334,32 @@ a:focus {
   font-size: 26px;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.nav-tabs{
+    padding: 15px 15px;    
+}
+
+.nav-tabs li a{
+    padding: 20px 30px;
+    background-color: transparent;
+}
+
+.nav-tabs li.active a{
+    padding: 20px 30px;
+    background-color: transparent;
+}
+
+.main_tr{
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+
+}
+
 /* files */
 .pdfImg span {
     background-image: url(../img/pdf-logo.png);
@@ -357,7 +386,6 @@ a:focus {
 .pdf_list {
     text-align: center;
     padding-bottom: 48px;
-    padding-top: 60px;
 }
 
 @media (min-height: 500px) and (max-height: 679px) {

@@ -287,8 +287,8 @@ a:focus {
 .tm-intro-text {
   font-size: 1.2rem;
   line-height: 1.4;
-        text-align: right;
-    direction: rtl;
+  text-align: right;
+  direction: rtl;
 }
 
 .tm-icon {
@@ -605,6 +605,13 @@ figure.effect-honey:hover h2 i {
 .tm-contact-item {
   margin-bottom: 75px;
 }
+
+  .tm-footer-contact {
+    max-width: 1063px;
+    text-align: right;
+    direction: rtl;
+    padding: 30px;
+  }
 
 .tm-contact-item-link {
   display: flex;

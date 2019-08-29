@@ -359,9 +359,9 @@ a:focus {
 }
 
 @media (max-width: 450px) {
-    .main_tr th .col-sm-1{
-        padding-right: 2px;
-        padding-left: 2px;
+    .nopadding{
+        padding-right: 2px !important;
+        padding-left: 2px !important;
     }
 
     .main_tr th{

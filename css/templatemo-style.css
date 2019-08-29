@@ -360,8 +360,8 @@ a:focus {
 
 @media (max-width: 450px) {
     .main_tr th .col-sm-1{
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-right: 2px;
+        padding-left: 2px;
     }
 
     .main_tr th{

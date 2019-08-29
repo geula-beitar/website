@@ -604,11 +604,12 @@ figure.effect-honey:hover h2 i {
 
 .tm-contact-item {
   margin-bottom: 75px;
+    align-items: center;
 }
 
   .tm-footer-contact {
     max-width: 1063px;
-    text-align: right;
+    text-align: center;
     direction: rtl;
     padding: 30px;
   }
@@ -616,6 +617,8 @@ figure.effect-honey:hover h2 i {
 .tm-contact-item-link {
   display: flex;
   align-items: center;
+  text-align: center;
+    align-content: center;
 }
 
 .tm-contact-item-link i,
@@ -667,6 +670,7 @@ figure.effect-honey:hover h2 i {
   left: 0;
   right: 0;
   padding: 0 15px;
+  background-color: #9386838c;
 }
 
 .tm-footer-link {

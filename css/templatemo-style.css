@@ -71,6 +71,7 @@ a:focus {
 .nav-container{
   margin-right: 4px;
   margin-left: 4px;
+  
 }
 
 .tm-navbar {
@@ -107,7 +108,7 @@ a:focus {
 .tm-nav-link {
   color: white;
   text-shadow: 2px 2px 2px #333;
-  direction: rtl;
+  direction: unset;
   text-align: center;
 }
 
